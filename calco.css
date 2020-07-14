@@ -1,0 +1,130 @@
+/* *, ::before,*::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+} */
+body {
+    font-family: 'Open Sans',sans-serif;
+    background-color: whitesmoke;
+    /* padding: 0;
+    margin: 0; */
+    /* background: linear-gradient(to right,purple,pink); */
+    
+}
+.container {
+    width: 1000px;
+    height: 550px;
+    background-color:wheat;
+    /* display: block;
+    align-items: flex-start;
+    flex-direction: initial;
+    padding: 10px;
+    text-align: center; */
+    margin: 20px auto;
+    overflow: auto;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);;    
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.empty {
+    background-color: #eaedef;
+}
+.number,.operator {
+    cursor: pointer;
+}
+.operator:active, .number:active {
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #19d868;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #3d1a91;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #f717ac;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #92b220;
+}
+
+    /* h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 17vh;
+}
+ button {
+    cursor: pointer;
+    color:  white;
+    outline: none;
+    background-color: turquoise;
+    border-radius: 10%;
+    width: 125px;
+    height: 30px;
+    padding: 0.25rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+}
+button:hover {
+    background-color: rgb(24, 224, 124);
+}
+p {
+    font-size: 2.5rem;
+    padding-top: initial;
+} */
+
+
+
+
+
+
+
